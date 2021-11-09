@@ -1,0 +1,35 @@
+#!/bin/bash
+#shegang
+
+#################################################################
+#								#
+#	NAME		: 					#
+#								#
+#	DESCRIPTION	: 					#
+#								#
+#	DATE		: __/11/2021				#
+#								#
+#	AUTEUR		: NEE MICKEL				#
+#								#
+#	CONTACT		: mickael.nee@atos.net			#
+#								#
+#	PARAM 1		: 					#
+#	PARAM 2		: 					#
+#	PARAM *		: 					#
+#								# 
+#################################################################
+
+clear
+
+#set -o xtrace
+
+echo "############# Execution du script #################"
+echo "Nom du script : $0"
+echo "Nb params : $#"
+if [ $# != 0 ]
+	then
+		echo "Liste des paramètres [$*]"
+fi
+
+echo "############### DEBUT DU SCRIPT ###################"
+echo " "
